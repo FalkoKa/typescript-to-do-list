@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#FFFFF] text-[#1f2937] p-3;
+  }
+
+  li {
+    @apply cursor-pointer;
+  }
+
+  button {
+    @apply border border-black rounded-sm p-1 m-3 uppercase text-black;
+  }
+
+  button:hover {
+    @apply bg-[#172828] border-[#172828] rounded-sm uppercase text-white;
+  }
+
+  input {
+    @apply border border-black rounded-sm p-1 text-black;
+  }
+}
